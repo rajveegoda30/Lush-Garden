@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <title>Task</title>
+    <!-- css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- ------------------- -->
+</head>
+
+<body>
+    <!-- -----------------nab bar------------ -->
+    <nav class="position-absolute custom-navbar navbar navbar navbar-expand-md  w-100 z-1"
+        ariel-label="Lush">
+
+        <div class="container topbar">
+            <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsLush"
+                aria-controls="navbarsLush" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="top">
+                <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li><a class="nav-link" href="#">About Us</a></li>
+                    <li> <a class="nav-link" href="#">Planters</a></li>
+                    <li><a class="nav-link" href="#">Contact</a></li>
+                    <li><button class="Call">Call Us</button></li>
+                </ul>
+                <!-- <ul class="navbar-nav mb-2 mb-md-0 ms-5"> -->
+                <!-- </ul> -->
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar content -->
+
+    <!-- carousel--------------------------------------------------------------------- -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/img-1.jpg" class="d-block w-100" alt="image-1">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h5 class="h5-size">Nature's Beauty Delivered to You</h5>
+                    <p class="text-size"> Nature's beauty is just a click away with our online flower and plant shop. We
+                        offer a wide variety of flowers that will bring a touch of nature to your home</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/img-1.jpg" class="d-block w-100" alt="image-2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5-size">Nature's Beauty Delivered to You</h5>
+                    <p class="text-size"> Nature's beauty is just a click away with our online flower and plant shop. We
+                        offer a wide variety of flowers that will bring a touch of nature to your home</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/img-1.jpg" class="d-block w-100" alt="image-3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5-size">Nature's Beauty Delivered to You</h5>
+                    <p class="text-size"> Nature's beauty is just a click away with our online flower and plant shop. We
+                        offer a wide variety of flowers that will bring a touch of nature to your home</p>
+                </div>
+            </div>
+        </div>
+        <!-- previous next buton------------------------------------ -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <!-- <span class="visually-hidden"> Previous</span> -->
+            <img src="images/01.png" alt="01">
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+            <img src="images/02.png" alt="02">
+        </button>
+        <button class="carousel-control-three" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+            <img src="images/03.png" alt="03">
+        </button>
+        <button type="button" class="btn btn-success btn-position-book">Book Now </button>
+        <button type="button" class="btn btn-success btn-position-video"><img class="video" src="images/video.png"
+                alt="video">Watch Video </button>
+    </div>
+    <!-- --------end carousel-------------------------------------------------------- -->
+
+    <div class="container " style="display: flex;">
+        <div class="col-6 text-1">
+            <h3>We Help Choose The Most Suitable Plants For You</h3>
+        </div>
+        <div class="col-6 text-2" style="font-size: 16px !important;">
+            <p>Our selection includes a wide variety of flowers, from classic roses to exotic orchids, as well as a
+                variety of lush indoor and outdoor plants and also offer unique floral arrangements that are perfect for
+                any occasion, whether you're looking to brighten up your home or send a thoughtful gift. </p>
+        </div>
+    </div>
+
+    <!-- ----------------------------plant ----------------------------------- -->
+    <div class="container plant" style="display:flex; justify-content: space-between;">
+        <div class="col-4 boxes-1">
+            <div class="row1 plant-1">
+                <img src="images/plant-1.png" alt="plant-1">
+            </div>
+            <div class="row2 indoor-plant">
+                <p style="font-weight: 700;">Indoor Plants</p>
+            </div>
+            <div class="row3 indoor-paragraph">
+                <p>Bring the beauty of nature to your outdoor spaces with our wide selection of outdoor plants</p>
+            </div>
+        </div>
+        <div class="col-4 boxes-2">
+            <div class="row1 plant-2">
+                <img src="images/plant-2.png" alt="plant-2">
+            </div>
+            <div class="row2 outdoor-plant">
+                <p style="font-weight: 700;">Outdoor Plants</p>
+            </div>
+            <div class="row3 outdoor-paragraph">
+                <p> Bring a touch of greenery to your living spaces with our collection of indoor plants, perfect for
+                    purifying the air and adding a natural touch to your home.</p>
+            </div>
+        </div>
+        <div class="col-4 boxes-3">
+            <div class="row plant-3">
+                <img src="images/plant-3.png" alt="plant-3">
+            </div>
+            <div class="row2 plant-pot">
+                <p style="font-weight: 700;">Plants Pots</p>
+            </div>
+            <div class="row3 pot-para">
+                <p> Add a touch of style to your indoor or outdoor spaces with our collection of pots plants , available
+                    in a variety of sizes and designs to fit any decor</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------- -->
+    <div class="row h2-position">
+        <h2 class="h2-position-text">What we offer to you</h2>
+    </div>
+    <div class="conatiner styling-container">
+        <div class="col-4 cactus-1">
+            <div class="card" style="width: 16rem;height: 1px;">
+                <div class="card-body">
+                    <img src="images/cactus-1.png" style=" position: relative; right: 1rem;" class="card-img-top"
+                        alt="cactus-1">
+                    <h5 class="card-title" style=" color: #337A5B;font-family: 'Lato';font-weight: 900;">Cactus Plant
+                    </h5>
+                    <img src="images/($10).png" alt=""> <span> <img src="images/$8.png" alt=""></span>
+                    <button type="button" class="btn btn-success btn-position-booknow-1">Buy Now </button>
+                    <img src="images/black-heart.png" style="bottom: 14rem;position: relative;left: 1rem;"
+                        alt="black-heart">
+                </div>
+            </div>
+        </div>
+        <div class="col-4 cactus-2">
+            <div class="card" style="width: 16rem;height: 1px;">
+                <div class="card-body">
+                    <img src="images/cactus-2.png" style=" position: relative; right: 1rem;" class="card-img-top"
+                        alt="cactus-2">
+                    <h5 class="card-title" style=" color: #337A5B;font-family: 'Lato';font-weight: 900;">Cactus Plant
+                    </h5>
+                    <img src="images/($10).png" alt=""> <span> <img src="images/$8.png" alt=""></span>
+                    <button type="button" class="btn  btn-position-booknoww">Buy Now</button>
+
+                    <img src="images/Love.png" style="bottom: 14rem;position: relative;left: 6rem;" alt="love-heart">
+                </div>
+            </div>
+        </div>
+        <div class="col-4 cactus-3">
+            <div class="card" style="width: 16rem;height: 1px;">
+                <div class="card-body">
+                    <img src="images/cactus-3.png" style=" position: relative; right: 1rem;" class="card-img-top"
+                        alt="cactus-3">
+                    <h5 class="card-title" style=" color: #337A5B;font-family: 'Lato';font-weight: 900;">Cactus Plant
+                    </h5>
+                    <img src="images/($10).png" alt=""> <span> <img src="images/$8.png" alt=""></span>
+                    <button type="button" class="btn  btn-position-booknoww">Buy Now</button>
+
+                    <img src="images/Love.png" style="bottom: 14rem;position: relative;left: 6rem;" alt="love-heart">
+                </div>
+            </div>
+        </div>
+        <div class="col-4 cactus-4">
+            <div class="card" style="width: 16rem;height: 1px;">
+                <div class="card-body">
+                    <img src="images/cactus-4.png" style=" position: relative; right: 1rem;" class="card-img-top"
+                        alt="cactus-4">
+                    <h5 class="card-title" style=" color: #337A5B;font-family: 'Lato';font-weight: 900;">Cactus Plant
+                    </h5>
+                    <img src="images/($10).png" alt=""> <span> <img src="images/$8.png" alt=""></span>
+                    <button type="button" class="btn  btn-position-booknoww">Buy Now</button>
+
+                    <img src="images/Love.png" style="bottom: 14rem;position: relative;left: 6rem;" alt="love-heart">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="conatiner styling-container">
+        <div class="col-4 cactus2-1">
+            <div class="card" style="width: 16rem;height: 1px;">
+                <div class="card-body">
+                    <img src="images/cactus-5.png" style=" position: relative; right: 1rem;" class="card-img-top"
+                        alt="cactus-5">
+                    <h5 class="card-title" style=" color: #337A5B;font-family: 'Lato';font-weight: 900;">Cactus Plant
+                    </h5>
+                    <img src="images/($10).png" alt=""> <span> <img src="images/$8.png" alt=""></span>
+                    <button type="button" class="btn  btn-position-booknoww">Buy Now</button>
+
+                    <img src="images/Love.png" style="bottom: 14rem;position: relative;left: 6rem;" alt="love-heart">
+                </div>
+            </div>
+        </div>
+        <div class="col-4 cactus2-2">
+            <div class="card" style="width: 16rem;height: 1px;">
+                <div class="card-body">
+                    <img src="images/cactus-6.png" style=" position: relative; right: 1rem;" class="card-img-top"
+                        alt="cactus-6">
+                    <h5 class="card-title" style=" color: #337A5B;font-family: 'Lato';font-weight: 900;">Cactus Plant
+                    </h5>
+                    <img src="images/($10).png" alt=""> <span> <img src="images/$8.png" alt=""></span>
+                    <button type="button" class="btn  btn-position-booknoww">Buy Now</button>
+
+                    <img src="images/Love.png" style="bottom: 14rem;position: relative;left: 6rem;" alt="love-heart">
+                </div>
+            </div>
+        </div>
+        <div class="col-4 cactus2-3">
+            <div class="card" style="width: 16rem;height: 1px;">
+                <div class="card-body">
+                    <img src="images/cactus-7.png" style=" position: relative; right: 1rem;" class="card-img-top"
+                        alt="cactus-7">
+                    <h5 class="card-title" style=" color: #337A5B;font-family: 'Lato';font-weight: 900;">Cactus Plant
+                    </h5>
+                    <img src="images/($10).png" alt=""> <span> <img src="images/$8.png" alt=""></span>
+                    <button type="button" class="btn  btn-position-booknoww">Buy Now </button>
+
+                    <img src="images/Love.png" style="bottom: 14rem;position: relative;left: 6rem;" alt="love-heart">
+                </div>
+            </div>
+        </div>
+        <div class="col-4 cactus2-4">
+            <div class="card" style="width: 16rem;height: 1px;">
+                <div class="card-body">
+                    <img src="images/cactus-8.png" style=" position: relative; right: 1rem;  width: 12.8rem; "
+                        class="card-img-top" alt="cactus-8">
+                    <h5 class="card-title"
+                        style="position: relative;top: 1rem; color: #337A5B;font-family: 'Lato';font-weight: 900;">
+                        Cactus Plant</h5>
+                    <img src="images/($10).png" style="position: relative;top: 1rem;" alt=""> <span> <img
+                            src="images/$8.png" style="position: relative;top: 1rem;" alt=""></span>
+                    <button type="button" class="btn  btn-position-booknoww">Buy Now </button>
+
+                    <img src="images/Love.png" style="bottom: 13rem;position: relative;left: 6rem;" alt="love-heart">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- ------------------pic and 4 box---------------------------------- -->
+    <!-- <div class="container"> -->
+    <div class="col-6 group-1">
+        <img src="images/Group 1.jpg"
+            style="position: relative;width: 590px !important; height: 758px;right:3rem;  top: 0rem;" alt="group-1">
+    </div>
+
+    <div class="col-6" style="width: 50%;position: relative;bottom: 40rem;">
+        <div class="row1 row-position" style="display: flex;position: relative; right: 4.9rem; top: 0px;">
+            <!--  ----------------card-1------------->
+            <div class="col-6">
+
+                <div class="card-body placing-box1">
+                    <img src="images/Time-Cosuming.png" style="position: relative;left: 4rem; top: 4rem;"
+                        class="box1-size" alt="Time-Cosuming">
+                    <h5 class="card-title" style="position: relative;  top: 5rem;left: 4rem;
+                    color: #285A43;font-family: 'Lato';font-style: normal;font-weight: 900;">Quality Product</h5>
+                    <p style="position: relative;top: 6rem;left: 4rem;width: 11rem; font-size: 13px;">Our flowers are of
+                        the highest quality, carefully selected and sourced from
+                        reputable</p>
+                </div>
+            </div>
+            <!-- ------------card -2--------------------- -->
+            <div class="col-6">
+
+                <div class="card-body placing-box2" alt="">
+                    <img src="images/Grow_Sprout.png" style="position: relative;left: 4rem; top: 3rem;"
+                    class="box1-size"style="position: relative;  top: 4rem;left: 4rem;
+                    color: #285A43;font-family: 'Lato';font-style: normal;font-weight: 900;" class="box2-size" alt="...">
+                    <h5 class="card-title"style="position: relative;  top: 4rem;left: 4rem;
+                    color: #285A43;font-family: 'Lato';font-style: normal;font-weight: 900;">Always Fresh</h5>
+                    <p style="position: relative;top: 5rem;left: 4rem;width: 11rem; font-size: 13px;">Our flowers are always fresh, handpicked and delivered promptly for maximum longevity and
+                        enjoyment.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------row2--------------------------------- -->
+        <div class="row2 row-position" style="display: flex;position: relative; right: 4.9rem; top: 0px;">
+            <!--  ----------------card-1------------->
+            <div class="col-6">
+
+                <div class="card-body placing-box3">
+                    <img src="images/Temperature 1.png" style="position: relative;left: 4rem; top: 2rem;"
+                    class="box1-size"class="box3-size" alt="Temperature">
+
+                    <h5 class="card-title" style="position: relative;  top: 2rem;left: 4rem;
+                    color: #285A43;font-family: 'Lato';font-style: normal;font-weight: 900;">Work Smart</h5>
+                    <p style="position: relative;top: 3rem;left: 4rem;width: 12rem; font-size: 13px;">We work smart, using innovative techniques and technology to streamline our processes</p>
+                </div>
+            </div>
+            <!-- ------------card -2--------------------- -->
+            <div class="col-6">
+
+                <div class="card-body placing-box4"
+                class="box1-size" alt="">
+                    <img src="images/Pruning.png"  style="position: relative;left: 4rem; top: 2rem;" class="box4-size" alt="...">
+                    <h5 class="card-title" style="position: relative;  top: 4rem;left: 4rem;
+                    color: #285A43;font-family: 'Lato';font-style: normal;font-weight: 900;">Excelent Service</h5>
+                    <p style="position: relative;top: 5rem;left: 4rem;width: 12rem; font-size: 13px;">We pride ourselves on providing excellent service, going above and beyond to meet our customers'
+                        needs
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="row2 row-position"
+            style="display: flex;position: relative; right: 4.9rem; top: 0px;">
+            <div class="card-body placing-box3">
+                <img src="images/Temperature 1.png" class="box3-size" alt="cactus-7">
+
+                <h5 class="card-title">Work Smart</h5>
+                <p>We work smart, using innovative techniques and technology to streamline our processes</p>
+            </div>
+            <div class="card-body top-img placing-box4"
+                style="position: relative;width: 360px;height: 379px;right: 4.9rem;top: 0px;" alt="">
+                <img src="images/Pruning.png" class="box4-size" alt="...">
+                <h5 class="card-title">Excelent Service</h5>
+                <p>We pride ourselves on providing excellent service, going above and beyond to meet our customers'
+                    needs</p>
+            </div>
+        </div> -->
+    </div>
+    </div>
+    <!-- ------------------------------ -->
+
+    <!-- ---------------------------- -->
+
+    <div class="container img-placing">
+        <div class=" Gallery">
+            <h2 class="gallery-view">Our Gallery View</h2>
+        </div>
+        <div class="col-6 img1">
+            <img src="images/img1.jpg" alt="">
+        </div>
+        <div class="col-6" style="display: flex;">
+            <div class="row img2">
+                <img src="images/img2.jpg" width: 389px; alt="">
+                <img src="images/img3.jpg" alt="">
+            </div>
+        </div>
+        <div class="row img3">
+            <img src="images/img3.jpg" alt="">
+            <img src="images/img4.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+
+    <div class="row say">
+        <h2 class="say-size"> What do they say about us</h2>
+    </div>
+    <div class="container about-us">
+        <div class="col-4 about-1">
+            <div class="row1 rectangle" style="display: flex;">
+                <img src="images/Rectangle.png" alt="plant-1">
+                <p class="jessica">Jessica Watson</p>
+            </div>
+
+            <div class="row3 jessica-paragraph">
+                <p class="text1"> “ Highly recommend this website for quality flowers and plants. Great prices,
+                    timely delivery
+                    and excellent customer service. ”</p>
+                <img src="images/vector-1.png" class="vector-1" alt="plant-1">
+
+            </div>
+        </div>
+        <div class="col-4 about-2">
+            <div class="row1 rectangle-1">
+                <img src="images/Rectangle-1.png" alt="plant-2">
+                <p class="kate">Kate Szu</p>
+            </div>
+
+            <div class="row3 kate-paragraph">
+                <p class="text2"> "Great service, beautiful flowers, timely delivery. Highly recommend."</p>
+                <img src="images/vector-2.png" class="vector-2" alt="plant-1">
+
+            </div>
+        </div>
+        <div class="col-4 about-3">
+            <div class="row rectangle-2">
+                <img src="images/Rectangle-2.png" alt="plant-3">
+                <p class="grace">Grace</p>
+            </div>
+
+            <div class="row3 grace-para">
+                <p class="text3"> "I am very happy with my purchase from this website, the plants were healthy
+                    and arrived on time.”</p>
+                <img src="images/vector-3.png" class="vector-3" alt="plant-1">
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <div class="container">
+        <img class="login-img" src="images/login-img.jpg" alt="login-img">
+        <h2 class="login-text">Enter your email address for our mailing Promo or other interesting things</h2>
+        <form class="form-horizontal">
+            <!-- User Name Input -->
+            <div class="address  mb-3">
+                <button type="button" class="email text-alignment" style="text-align: start;
+            padding: 2px 0px 2px 17px;">Enter your email </button>
+                <button type="button" class="btn  btn-submit">Submit</button>
+            </div>
+    </div>
+
+
+
+
+    <div class="container blog">
+        <h2 class="blog-header"> Interesting blog to read</h2>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/image 6.jpg" class="card-img-top img-top-position" alt="image-6">
+                <div class="card-body ">
+                    <h5 class="card-title-1">More productive with an atmosphere of greenery</h5>
+                    <p class="card-text-1">An atmosphere of greenery can increase productivity in the workplace. Studies
+                        show that plants improve air quality and decrease stress...</p>
+
+
+                    <img class="calender" src="images/calender.png" style="display: flex;" alt=""> <span>
+                        <p class="card-text-2" style="    position: relative;
+                        top: 6rem;right: 47rem;"><small class="text-muted">January 20, 2023</small></p>
+                    </span>
+                    <h6 class="readmore">Read More</h6> <span><img class="arrow" src="images/arrow.png" alt=""></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/image 7.jpg" class="card-img-top img-top-position-2" alt="image-7">
+                <div class="card-body ">
+                    <h5 class="card-title-2">The benefits of plants in your room</h5>
+                    <p class="card-text-3">Plants in your room can bring numerous benefits, such as improved air
+                        quality, reduced stress, and increased feelings of well-being....</p>
+
+
+                    <img class="calender1" src="images/calender.png" style="display: flex;" alt=""> <span>
+                        <p class="card-text-4"><small class="text-muted">January 10, 2023</small></p>
+                    </span>
+                    <h6 class="readmore1">Read More</h6> <span><img class="arrow1" src="images/arrow.png" alt=""></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/image 8.jpg" class="card-img-top img-top-position-3" alt="image-8">
+            <div class="card-body">
+                <h5 class="card-title-3">Hobbyist plants in the house</h5>
+                <p class="card-text-5">Having hobbyist plants in the house is a great way to bring nature indoors. Not
+                    only do they purify the air, but they....</p>
+
+                <img class="calender2" src="images/calender.png" style="display: flex;" alt=""> <span>
+                    <p class="card-text-6"><small class="text-muted">January 15, 2023</small></p>
+                </span>
+                <h6 class="readmore2">Read More</h6> <span><img class="arrow2" src="images/arrow.png" alt=""></span>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- ---------footerr --------------------------------------------- -->
+    <div class="container" style="    position: relative;
+    bottom: 21rem;">
+        <img class="footer" src="images/footer.jpg" alt="footer">
+        <h3 class="contact">Feel free to contact us</h3>
+        <img class="left-img" src="images/left.png" alt="left-img">
+        <img class="right-img" src="images/right.png" alt="right-img">
+        <img class="insta" src="images/Instagram.png" alt="insta">
+        <img class="facebook" src="images/Facebook.png" alt="facebook">
+        <img class="twitter" src="images/Twitter.png" alt="twitter">
+        <img class="copy-right" src="images/copyright.png" alt="copy-right">
+        <h5 class="copy-text">Copyright © 2021 Lush. All rights reserved.</h5>
+        <div class="footer-menu">
+            <ul style="display: flex;gap: 2rem; text-decoration: none;list-style: none">
+                <li>
+                    <a style="color: white !important;" href="#Home">Home</a>
+
+
+                </li>
+                <li>
+                    <a style="color: white !important;text-decoration: none" href="#About Us">About Us</a>
+
+                </li>
+                <li>
+                    <a style="color: white !important;text-decoration: none" href="#Plants">Plants</a>
+
+                </li>
+                <li>
+                    <a style="color: white !important;text-decoration: none" href="#Delivery">Delivery</a>
+
+                </li>
+                <li>
+                    <a style="color: white !important;text-decoration: none" href="#Blog">Blog</a>
+
+                </li>
+                <li>
+                    <a style="color: white !important;text-decoration: none;" href="#Contact Us">Contact Us</a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ----------end footer ------------------ -->
+
+
+    <!-- link js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <!-- ---------------------- -->
+</body>
+
+</html>
